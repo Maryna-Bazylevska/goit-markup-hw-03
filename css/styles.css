@@ -244,7 +244,8 @@ text-align: center;
 .button:active,
 .button:hover,
 .button:focus {
-  color: var(--accent-kolor);
+  color: var(--secondary-color);
+  background-color: var(--accent-kolor);
 }
 .button,
 .activ-button{
@@ -425,7 +426,7 @@ line-height: 1.875;
 
 letter-spacing: 0.03em;
 }
-.projects-li:nth-child(3n + 1){
+.projects-li:first-child{
   margin-left: -10px;
 }
 .projects-li{
